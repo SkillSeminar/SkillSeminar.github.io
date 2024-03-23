@@ -6,14 +6,17 @@ body {
 }
 
 header {
-    color: #333; /* Changed from white to a dark color for contrast against the now light background */
-    padding: 40px 0; /* Increased padding to lower the title */
+    color: #333;
+    padding: 40px 0;
     text-align: center;
-    background-color: transparent; /* Removed the blue background */
+    background-color: transparent;
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 header h1 {
-    margin: 0;
+    margin: 0 10px; /* Add some space around the title */
     font-size: 24px;
 }
 
@@ -35,4 +38,9 @@ main {
 
 p {
     line-height: 1.6;
+}
+
+.header-icon {
+    height: 50px; /* Adjust the height of your icons here */
+    margin: 0 10px; /* Space between icons and the title */
 }
