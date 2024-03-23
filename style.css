@@ -113,42 +113,44 @@ p {
 }
 
 #schedule-box {
-    background-color: #fff; /* White background for consistency */
-    padding: 20px;
-    margin-top: 20px; /* Space from the previous section */
-    border-radius: 8px; /* Rounded corners for a modern look */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow for depth */
-    max-width: 800px; /* Matching width with main content */
-    margin: 20px auto; /* Centering the box */
+    background-color: #fff; /* Maintains white background for clarity */
+    padding: 25px; /* Slightly increased padding for more space */
+    margin: 30px auto; /* Increased top margin for better separation from previous content */
+    border-radius: 10px; /* Slightly more pronounced rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Enhanced shadow for more depth */
+    max-width: 800px; /* Consistent width with main content */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Unified font family */
 }
 
 .schedule-list {
-    list-style: none; /* Remove default list styling */
+    list-style: none; /* Keeps default list styling off */
     padding: 0;
+    margin-top: 20px; /* Adds space above the first list item */
 }
 
 .schedule-list li {
-    margin-bottom: 15px; /* Space between items */
+    padding: 15px; /* Adds padding inside each list item for spacing */
+    margin-bottom: 10px; /* Reduces space between items for tighter grouping */
+    background-color: #f9f9f9; /* Slight background color for list items to stand out */
+    border-radius: 5px; /* Rounded corners for list items */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow for list items */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transitions for hover effects */
+}
+
+.schedule-list li:hover {
+    transform: translateY(-5px); /* Slight raise effect on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Enhanced shadow on hover */
 }
 
 .schedule-list h3 {
-    margin: 0 0 5px; /* Compact spacing for the heading */
+    margin: 0 0 10px; /* Increased bottom margin for more space above the date/topic */
+    color: #0056b3; /* Theme color for headings */
+    font-size: 18px; /* Slightly larger font size for emphasis */
 }
 
-.info-button {
-    display: inline-block; /* Block level for padding */
-    padding: 8px 15px; /* Comfortable padding */
-    background-color: #007bff; /* Matching theme color */
-    color: #ffffff; /* Contrast text color */
-    text-decoration: none; /* Clean text */
-    border-radius: 5px; /* Slight rounding */
-    font-size: 14px; /* Readable, yet compact font size */
-    margin-top: 5px; /* Separate from the description */
-    transition: background-color 0.3s; /* Smooth transition for interaction */
+.schedule-list p {
+    margin: 0; /* Reset margin for tight spacing */
+    font-size: 16px; /* Appropriate font size for readability */
 }
 
-.info-button:hover {
-    background-color: #0056b3; /* Slightly darker on hover */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for depth */
-}
 
