@@ -78,31 +78,34 @@ p {
     text-align: justify; /* Justified text for a polished look */
 }
 
-/* Subscription box styling */
+/* Enhanced subscription box styling */
 .subscription-box {
     text-align: center; /* Center the content */
-    padding: 20px;
-    margin: 20px auto; /* Center the box and provide some spacing */
-    background-color: #f1f1f1; /* Light gray background for distinction */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Consistent shadow as header and mission */
+    padding: 30px;
+    margin: 40px auto; /* Increased margin for better separation */
+    background-color: #ffffff; /* Change to a clean white background */
+    border: 1px solid #e0e0e0; /* Subtle border for definition */
+    border-radius: 10px; /* More pronounced rounded corners */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Softer shadow for depth */
+    max-width: 600px; /* Restrict the width for better layout control */
 }
 
-/* Style for the subscribe button/link */
+/* More appealing subscribe button/link */
 .subscribe-button {
     display: inline-block; /* Treat the link as a block for padding */
-    padding: 10px 20px; /* Padding for size */
-    background-color: #0056b3; /* Background color to match the title */
+    padding: 12px 30px; /* Increased padding for a larger button */
+    background-color: #007bff; /* Brighter blue for a modern look */
     color: #ffffff; /* White text */
     text-decoration: none; /* Remove underline */
-    border-radius: 4px; /* Slightly rounded corners for the button */
+    border-radius: 20px; /* More pronounced rounded corners for the button */
     font-weight: bold; /* Make text bold */
-    margin-top: 10px; /* Space from the text above */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Hover effect for the subscribe button */
 .subscribe-button:hover {
-    background-color: #003d7a; /* Slightly darker blue on hover */
+    background-color: #0056b3; /* Slightly darker blue on hover */
     cursor: pointer; /* Change cursor to indicate clickable */
+    text-decoration: none; /* Ensure underline doesn't reappear on hover */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for depth on hover */
 }
-
