@@ -6,10 +6,10 @@ body {
 }
 
 header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px 0;
+    color: #333; /* Changed from white to a dark color for contrast against the now light background */
+    padding: 40px 0; /* Increased padding to lower the title */
     text-align: center;
+    background-color: transparent; /* Removed the blue background */
 }
 
 header h1 {
