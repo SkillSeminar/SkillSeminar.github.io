@@ -35,7 +35,7 @@ header h1 {
 
 
 .subtitle {
-    font-size: 16px;
+    font-size: 36px;
     color: #666; /* A lighter shade for the subtitle */
 }
 
@@ -51,8 +51,6 @@ header h1 {
     text-align: left; /* Align text to the right */
     font-family: 'Times New Roman', serif; /* Change font to Times New Roman */
 }
-
-
 
 /* Main content styling */
 main {
