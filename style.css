@@ -1,54 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff; /* Changed background to white */
-}
-
 header {
     color: #333;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
     background-color: transparent;
-    display: flex; /* Enable flexbox layout */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    flex-direction: column; /* Stack items vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Removed flex-direction: column; */
 }
 
-header h1 {
-    margin: 10px 20px; /* Adjusted margin */
-    font-size: 24px;
-    font-style: italic; /* Italicize the title */
-}
-
-.subtitle {
-    font-size: 16px; /* Subtitle font size */
-    margin-top: -10px; /* Adjust as needed */
-}
-
-main {
-    padding: 20px;
-}
-
-#mission {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-#mission h2 {
-    margin-top: 0;
-}
-
-p {
-    line-height: 1.6;
+.title-container {
+    display: inline-block; /* Treat the title and subtitle as a single block */
+    text-align: center; /* Center the text within this block */
 }
 
 .header-icon {
     width: 50px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin: 0 20px; /* Space between icons and the title */
+    /* Adjust margin as needed, possibly remove if not needed */
 }
