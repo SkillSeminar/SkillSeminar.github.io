@@ -44,6 +44,10 @@ header h1 {
     flex-grow: 0;
 }
 
+#mission p {
+    text-indent: 20px; /* Indent text to the left */
+    line-height: 1.6; /* Existing style for line height */
+}
 
 /* Main content styling */
 main {
