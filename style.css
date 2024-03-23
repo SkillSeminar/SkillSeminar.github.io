@@ -25,13 +25,14 @@ header {
     padding: 0 40px; /* Avoids touching the icons */
 }
 
-/* Header title and subtitle styling */
 header h1 {
-    margin: 0;
+    margin: 0; /* Keeps margin from pushing elements away */
     font-size: 28px; /* Slightly larger for emphasis */
     font-style: italic;
     color: #0056b3; /* A pleasing shade of blue for pop */
+    text-align: center; /* Ensures text is centered if flex properties don't apply as expected */
 }
+
 
 .subtitle {
     font-size: 16px;
@@ -45,9 +46,9 @@ header h1 {
 }
 
 #mission p {
-    text-indent: 20px; /* Left indent for paragraphs */
+    text-indent: 35px; /* Left indent for paragraphs */
     line-height: 1.6; /* Maintain line height */
-    text-align: right; /* Align text to the right */
+    text-align: left; /* Align text to the right */
     font-family: 'Times New Roman', serif; /* Change font to Times New Roman */
 }
 
