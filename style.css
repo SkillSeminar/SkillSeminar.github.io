@@ -153,13 +153,16 @@ p {
     font-size: 16px; /* Appropriate font size for readability */
 }
 
-footer {
-    text-align: center; /* Centers the text */
-    padding: 20px; /* Adds padding for spacing */
-    margin-top: 10px; /* Separates the footer from content above */
-    color: #666; /* A softer shade for readability */
-    font-size: 16px; /* Appropriate size for footer text */
-    background-color: #f9f9f9; /* Matches the page background for a cohesive look */
-    border-top: 1px solid #e0e0e0; /* Subtle top border for a slight separation */
+.organizer {
+    text-align: center; /* Centers the text for better readability */
+    padding: 15px; /* Provides some space above and below the text */
+    margin-top: 30px; /* Ensures there's a gap between this and content above */
+    color: #666; /* A softer color that's easy on the eyes */
+    font-size: 16px; /* A comfortable reading size */
+    background-color: #f1f1f1; /* Slightly different background to stand out */
+    border-top: 1px solid #e0e0e0; /* Adds a subtle border for visual separation */
+    width: 100%; /* Ensures the div spans the full width of its container */
+    box-sizing: border-box; /* Makes sure padding doesn't affect its set width */
 }
+
 
