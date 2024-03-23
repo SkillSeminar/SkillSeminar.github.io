@@ -27,7 +27,7 @@ header {
 
 header h1 {
     margin: 0; /* Keeps margin from pushing elements away */
-    font-size: 28px; /* Slightly larger for emphasis */
+    font-size: 45px; /* Slightly larger for emphasis */
     font-style: italic;
     color: #0056b3; /* A pleasing shade of blue for pop */
     text-align: center; /* Ensures text is centered if flex properties don't apply as expected */
