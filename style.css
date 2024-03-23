@@ -1,21 +1,70 @@
+/* Base styles to ensure consistency and readability */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font family */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* A softer shade of white for the background */
+    color: #333; /* Default text color for better readability */
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+/* Header styles for an attractive, centered layout */
 header {
-    color: #333;
-    padding: 20px;
-    text-align: center;
-    background-color: transparent;
+    background-color: #fff; /* Pure white background for the header for contrast */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Ensure icons are pushed to the edges */
     align-items: center;
-    /* Removed flex-direction: column; */
+    padding: 20px; /* Adequate padding for spacing */
+    position: relative; /* For potential absolute positioning inside */
 }
 
+/* Center content container */
 .title-container {
-    display: inline-block; /* Treat the title and subtitle as a single block */
-    text-align: center; /* Center the text within this block */
+    text-align: center; /* Center the text */
+    padding: 0 40px; /* Avoids touching the icons */
 }
 
+/* Header title and subtitle styling */
+header h1 {
+    margin: 0;
+    font-size: 28px; /* Slightly larger for emphasis */
+    font-style: italic;
+    color: #0056b3; /* A pleasing shade of blue for pop */
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666; /* A lighter shade for the subtitle */
+}
+
+/* Icon styling for visual harmony */
 .header-icon {
-    width: 50px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    /* Adjust margin as needed, possibly remove if not needed */
+    width: 64px; /* Slightly larger icons for visibility */
+    height: auto;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 800px; /* Restrict content width for readability */
+    margin: 20px auto; /* Center the main content */
+}
+
+#mission {
+    background-color: #fff; /* White background for content sections */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Consistent shadow as header */
+}
+
+/* Mission heading for distinction */
+#mission h2 {
+    color: #0056b3; /* Matching the title's color */
+}
+
+/* Paragraph adjustments for better flow */
+p {
+    text-align: justify; /* Justified text for a polished look */
 }
