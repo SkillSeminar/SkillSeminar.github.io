@@ -111,3 +111,48 @@ p {
     text-decoration: none; /* Ensure no underline on hover */
     box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Shadow for depth on hover */
 }
+
+/* Schedule box styling, similar to subscription box but with its own identity */
+.schedule-box {
+    text-align: center; /* Center content */
+    padding: 20px;
+    margin: 30px auto; /* Space from the subscription box */
+    background-color: #f8f9fa; /* Slightly different shade for distinction */
+    border: 1px solid #e0e0e0; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Consistent with the rest of the design */
+    max-width: 600px; /* Matching width */
+}
+
+.schedule-box h3 {
+    color: #0056b3; /* Keeping the title color consistent with other headings */
+    margin-bottom: 15px; /* Space between the title and the content */
+}
+
+.schedule-box ul {
+    text-align: left; /* Aligning the list to the left for readability */
+    list-style-type: none; /* Removing default bullets */
+    padding: 0;
+}
+
+.schedule-box li {
+    padding: 5px 0; /* Space between list items */
+}
+
+.more-info-button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.more-info-button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
