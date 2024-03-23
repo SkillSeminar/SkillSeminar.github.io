@@ -38,11 +38,12 @@ header h1 {
     color: #666; /* A lighter shade for the subtitle */
 }
 
-/* Icon styling for visual harmony */
 .header-icon {
-    width: 64px; /* Slightly larger icons for visibility */
-    height: auto;
+    width: 100px; /* Adjusted width for larger icons */
+    height: auto; /* Maintain aspect ratio */
+    flex-grow: 0;
 }
+
 
 /* Main content styling */
 main {
