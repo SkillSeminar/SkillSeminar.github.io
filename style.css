@@ -153,7 +153,13 @@ p {
     font-size: 16px; /* Appropriate font size for readability */
 }
 
-footer {
+#last_section {
     text-align: center; /* Centers the text */
+    padding: 20px; /* Adds padding for spacing */
+    margin-top: 10px; /* Separates the footer from content above */
+    color: #666; /* A softer shade for readability */
+    font-size: 16px; /* Appropriate size for footer text */
+    background-color: #f9f9f9; /* Matches the page background for a cohesive look */
+    border-top: 1px solid #e0e0e0; /* Subtle top border for a slight separation */
 }
 
